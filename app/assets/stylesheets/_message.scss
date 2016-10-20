@@ -120,3 +120,25 @@
     font-size: 1rem;
   }
 }
+
+.lyric{
+  margin-top: 50px;
+
+  .lyric__content {
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+
+    @include media($medium-screen) {
+      line-height: 2.8rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  .lyric__author {
+    text-align: center;
+    span {
+      border-bottom: 1px solid;
+    }
+  }
+}
