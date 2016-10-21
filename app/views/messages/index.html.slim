@@ -18,6 +18,27 @@ section.messages
 section.video-wrapper
   iframe src="https://www.youtube.com/embed/7l9BJJo-IRc" frameborder="0" allowfullscreen="true"
 
+section.lyric
+  p.lyric__content
+    | 最高だったぜ TokyuRuby 会議
+    br
+    | 俺はラップの国の駐日大使
+    br
+    | ここから新たな Hack を開始
+    br
+    | 挑めよコミッタ抱けよ大志
+  p.lyric__content
+    | もしや俺は若杉の代理？
+    br
+    | 邁進していく Ruby の世界
+    br
+    | 今日はありがと飯作った奴は偉い
+    br
+    | 感謝しよう、今ここでの出会い
+  .lyric__author
+    span
+      | by @highwide
+
 javascript:
   $(document).on('turbolinks:load', function() {
     $('.messages').children().each(function() {
